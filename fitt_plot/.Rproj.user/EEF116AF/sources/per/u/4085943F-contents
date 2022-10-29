@@ -1,0 +1,6 @@
+data <- read.table("D:\\GithubRepositry\\fittslaw\\table.txt")
+xaxis <- data$V1
+yaxis <- data$V2
+plot(xaxis,yaxis,xlab="ID",ylab="TIME")
+
+
